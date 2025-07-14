@@ -222,3 +222,45 @@ span {
     margin: 8px 0px;
     background-color: black;
 }
+
+.footer {
+    background-color: white;
+    margin: 20px auto;
+}
+
+.footer-container {
+    background-color: rgb(255, 242, 241);
+    padding: 105px 20px;
+    margin: 35px auto;
+    border-radius: 15px;
+    width: 1040px;
+    
+    text-align: center;
+}
+
+.footer-container h1 {
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    border: none;
+    padding: 15px 152px;
+}
+
+.input button {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) 0.004%, rgb(255, 19, 111) 100.004%);
+    width: 157px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: rgb(255, 255, 255);
+    border: none;
+}
