@@ -16,15 +16,21 @@ nav {
     width: 500.94px;
     height: 28px;
     padding: 10px 20px;
-    position: relative;
+
     border: none;
+}
+
+.Search {
+    position: relative;
+    color: #bababa;
+
 }
 
 .Search i {
     position: absolute;
-    top: 25px;
-    left: 850px;
-    color: rgb(186, 186, 186);
+    top: 15px;
+    right: 17px;
+    color: rgb(29, 21, 21);
 }
 
 nav ul {
@@ -90,4 +96,129 @@ span {
     border: none;
     border-radius: 5px;
     margin: 8px 0px;
+}
+
+/*  */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.card-container:nth-child(1) {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+}
+
+.card-container:nth-child(2) {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+}
+
+.card-container:nth-child(3) {
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
+}
+
+
+.Categories h1 {
+    margin-top: 64px;
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-container h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 33px 0;
+    margin-left: 20px;
+}
+
+.Categories-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+
+.bs-container {
+    background-color: rgb(244, 244, 244);
+    margin: 20px auto;
+}
+
+.shoes-1 {
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+}
+
+.bs-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bs-title h1 {
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.bs-title p a {
+    color: rgb(255, 157, 0);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.shoes-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.shoes-1 img {
+    width: 336px;
+    height: 202px;
+}
+
+.shoes-1 h2 {
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.shoes-1 p {
+    color: rgb(78, 78, 78);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shoes-1 span {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.button-2 {
+    padding: 14px 20px 14px 20px;
+    color: white;
+    width: 168px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 0px;
+    background-color: black;
 }
